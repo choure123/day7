@@ -13,8 +13,8 @@ do
     do
         for ((k=$j+1; k<$n; k++))
         do
-            # Check if the sum of the triplet is zero
-            if [ $((arr[$i] + arr[$j] + arr[$k])) -eq 0 ]
+       
+           if [ $((arr[$i] + arr[$j] + arr[$k])) -eq 0 ]
             then
                 echo "Triplet found: ${arr[$i]}, ${arr[$j]}, ${arr[$k]}"
                 found=true
