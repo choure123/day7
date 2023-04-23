@@ -1,4 +1,4 @@
-zxZXASQ	xsqa#!/bin/bash
+#!/bin/bash  -x
 
 magic_number=$(( (RANDOM % 100) + 1 ))
 
